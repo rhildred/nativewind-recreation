@@ -1,4 +1,4 @@
-# preact-native-custom-elements
+# preact-native-custom-element
 ## with react-native-paper, tailwind and uniwind
 
 ```jsx
