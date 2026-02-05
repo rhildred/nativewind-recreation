@@ -1,20 +1,14 @@
 import { render } from "preact";
-import { View } from "react-native";
-import { PaperProvider } from 'react-native-paper';
-import { Text, Button } from 'react-native-paper';
+import { Text, View } from "react-native";
 
 import "./index.css";
 
 export function App() {
   return (
-    <PaperProvider>
-      <View className="p-[10px]">
-        <Text variant="headlineMedium">Welcome to React Native Paper with Vite!</Text>
-        <Button mode="contained" onPress={() => console.log('Pressed')} className="mt-[15px]">
-          Press me
-        </Button>
-      </View>
-    </PaperProvider>
+    <View>
+      <p className="italic text-black">This is styled by tailwind</p>
+      <Text className="font-bold text-red-500">This is not</Text>
+    </View>
   );
 }
 
