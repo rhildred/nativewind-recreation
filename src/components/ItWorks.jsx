@@ -1,11 +1,8 @@
-import { render } from "preact";
 import { View } from "react-native";
 import { PaperProvider } from 'react-native-paper';
 import { Text, Button } from 'react-native-paper';
 
-import "./index.css";
-
-export function App() {
+export function ItWorks() {
   return (
     <PaperProvider>
       <View className="p-[10px]">
@@ -17,5 +14,3 @@ export function App() {
     </PaperProvider>
   );
 }
-
-render(<App />, document.getElementById("app"));

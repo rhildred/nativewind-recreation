@@ -17,6 +17,3 @@
 3. I need a richer array of components than the react-native core components.
 
 I was encouraged by [Daniel Williams work](https://github.com/dannyhw/react-native-web-vite-sb-examples) that it is indeed possible for me to have what I need. Thanks to Daniel Williams help with uniwind as the glue for this I now have it working. I hope that others, including my students at Wilfrid Laurier university, will be able to also use this to make components that can be used in progressive web apps or in react native.
-
-*TODO: actually make this a preact-custom-element.
-
